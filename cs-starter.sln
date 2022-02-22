@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{0B7B6611-2CC8-4356-BC54-AB5FA72EA888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditAndSale", "CreditAndSale\CreditAndSale.csproj", "{9AE2F1B5-C9DF-41E3-94CA-7FDD38807AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditAndSale", "CreditAndSale\CreditAndSale.csproj", "{9AE2F1B5-C9DF-41E3-94CA-7FDD38807AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{193CC917-21C4-4F28-9111-1F338401AFC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9AE2F1B5-C9DF-41E3-94CA-7FDD38807AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE2F1B5-C9DF-41E3-94CA-7FDD38807AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE2F1B5-C9DF-41E3-94CA-7FDD38807AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193CC917-21C4-4F28-9111-1F338401AFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193CC917-21C4-4F28-9111-1F338401AFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193CC917-21C4-4F28-9111-1F338401AFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193CC917-21C4-4F28-9111-1F338401AFC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

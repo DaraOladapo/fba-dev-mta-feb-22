@@ -29,10 +29,10 @@ namespace ShapesConsoleApp
         public Rectangle()
         {
         }
-        public Rectangle(double l, double w)
+        public Rectangle(double length, double width)
         {
-            length = l;
-            width = w;
+            this.length = length;
+            this.width = width;
         }
         public double GetArea(double length, double width)
         {

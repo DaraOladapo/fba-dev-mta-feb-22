@@ -1,7 +1,5 @@
 namespace Inheritance
 {
-    public partial class Program
-    {
         class Person
         {
             public string FirstName { get; set; }
@@ -10,4 +8,3 @@ namespace Inheritance
             public Faculty Faculty { get; set; }
         }
     }
-}

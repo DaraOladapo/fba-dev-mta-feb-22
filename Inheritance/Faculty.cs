@@ -1,8 +1,5 @@
 namespace Inheritance
-{
-    public partial class Program
-    {
-        public enum Faculty
+{        public enum Faculty
         {
             Science,
             Arts,
@@ -10,4 +7,3 @@ namespace Inheritance
             Engineering
         }
     }
-}

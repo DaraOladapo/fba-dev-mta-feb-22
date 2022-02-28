@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32210.308
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{0B7B6611-2CC8-4356-BC54-AB5FA72EA888}"
 EndProject
@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statics", "Statics\Statics.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{8D45AE3E-4A72-49E7-8E0E-6836B838FEC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casting", "Casting\Casting.csproj", "{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interafaces", "Interafaces\Interafaces.csproj", "{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interafaces", "Interafaces\Interafaces.csproj", "{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{871F047D-8261-41CE-9455-5243202224F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure", "DataStructure\DataStructure.csproj", "{871F047D-8261-41CE-9455-5243202224F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkWebApp", "FrameworkWebApp\FrameworkWebApp.csproj", "{A413F8E4-C442-48D8-A9B7-7225B35B3BA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{871F047D-8261-41CE-9455-5243202224F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{871F047D-8261-41CE-9455-5243202224F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{871F047D-8261-41CE-9455-5243202224F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A413F8E4-C442-48D8-A9B7-7225B35B3BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A413F8E4-C442-48D8-A9B7-7225B35B3BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A413F8E4-C442-48D8-A9B7-7225B35B3BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A413F8E4-C442-48D8-A9B7-7225B35B3BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

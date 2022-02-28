@@ -1,5 +1,4 @@
-﻿using NamesAndAnimals;
-namespace NamesAndPeople
+﻿namespace NamesAndPeople
 {
     public class Program
     {

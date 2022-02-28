@@ -1,6 +1,7 @@
-namespace NamesAndAnimals
+namespace NamesAndPeople
 {
-    public class Dog: Animal{
+    public class Dog : Animal
+    {
         public string Breed;
         public string GetBreed()
         {
@@ -10,8 +11,8 @@ namespace NamesAndAnimals
     public class Animal
     {
         public string FirstName;
-        public string MiddleName{ get; set; }
-        protected string LastName { get; set; } 
+        public string MiddleName { get; set; }
+        protected string LastName { get; set; }
         public string Initials
         {
             get { return $"{FirstName[0]}.{MiddleName[0]}."; }
@@ -20,11 +21,11 @@ namespace NamesAndAnimals
         public string GetNameInInitials()
         {
             return $"{Initials} {LastName}";
-        }  
+        }
         //get full name  
         public string GetFullName()
         {
             return $"{FirstName} {MiddleName} {LastName}";
-        }  
+        }
     }
 }

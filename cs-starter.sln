@@ -1,21 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{0B7B6611-2CC8-4356-BC54-AB5FA72EA888}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditAndSale", "CreditAndSale\CreditAndSale.csproj", "{9AE2F1B5-C9DF-41E3-94CA-7FDD38807AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{193CC917-21C4-4F28-9111-1F338401AFC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Recursion\Recursion.csproj", "{193CC917-21C4-4F28-9111-1F338401AFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesConsoleApp", "ShapesConsoleApp\ShapesConsoleApp.csproj", "{4A8A4B72-4A4C-4A82-98F6-F2348EB09107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesConsoleApp", "ShapesConsoleApp\ShapesConsoleApp.csproj", "{4A8A4B72-4A4C-4A82-98F6-F2348EB09107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{47030862-0A5A-480D-9B8C-F8B49F4A272A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{47030862-0A5A-480D-9B8C-F8B49F4A272A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesAndPeople", "NamesAndPeople\NamesAndPeople.csproj", "{B5A3676B-5C67-4DD1-B452-70BC64FD4CD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamesAndPeople", "NamesAndPeople\NamesAndPeople.csproj", "{B5A3676B-5C67-4DD1-B452-70BC64FD4CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statics", "Statics\Statics.csproj", "{70D9E15D-35F4-4D8D-84CA-04AC5E6AA545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statics", "Statics\Statics.csproj", "{70D9E15D-35F4-4D8D-84CA-04AC5E6AA545}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{8D45AE3E-4A72-49E7-8E0E-6836B838FEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interafaces", "Interafaces\Interafaces.csproj", "{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{70D9E15D-35F4-4D8D-84CA-04AC5E6AA545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70D9E15D-35F4-4D8D-84CA-04AC5E6AA545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70D9E15D-35F4-4D8D-84CA-04AC5E6AA545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D45AE3E-4A72-49E7-8E0E-6836B838FEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D45AE3E-4A72-49E7-8E0E-6836B838FEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D45AE3E-4A72-49E7-8E0E-6836B838FEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D45AE3E-4A72-49E7-8E0E-6836B838FEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A227C2B-C2AB-4EEF-9338-713172A1E1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B66932-E059-4EA1-BABB-0DD2FBC2E3A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
